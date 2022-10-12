@@ -40,10 +40,10 @@
   [:div#app
    [:h1 "phase-vocoder"]
    [file-upload]
-
-   [:button
-    {:on-click (fn [] (buffer-source audio-context @current-sample))}
-    "Play"]])
+   (when (= js/AudioBuffer (type @current-sample))
+     [:button
+      {:on-click (fn [] (buffer-source audio-context @current-sample))}
+      "Play"])])
 
 (defn render []
   (rdom/render [app]

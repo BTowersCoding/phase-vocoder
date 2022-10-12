@@ -89,3 +89,7 @@ nil
 cljs꞉phase-vocoder.app꞉> 
 "function AudioBuffer() { [native code] }"
 cljs꞉phase-vocoder.app꞉> 
+#object[AudioBuffer]
+cljs꞉phase-vocoder.app꞉> 
+true
+cljs꞉phase-vocoder.app꞉> 
