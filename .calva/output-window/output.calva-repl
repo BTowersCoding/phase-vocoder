@@ -25,3 +25,67 @@ clj꞉shadow.user꞉>  ; Use `alt+enter` to evaluate
 ;    (There is a button in the status bar for this)
 ; Jack-in done.
 cljs꞉cljs.user꞉>  ; Use `alt+enter` to evaluate
+#object[ArrayBuffer [object ArrayBuffer]]
+cljs꞉phase-vocoder.app꞉> 
+#<Promise[~]>
+cljs꞉phase-vocoder.app꞉> 
+#object[ArrayBuffer [object ArrayBuffer]]
+cljs꞉phase-vocoder.app꞉> 
+:repl/exception!
+; 
+; Execution error (TypeError) at (<cljs repl>:1).
+context.createBufferSource is not a function
+cljs꞉phase-vocoder.app꞉> 
+#object[ArrayBuffer [object ArrayBuffer]]
+cljs꞉phase-vocoder.app꞉> 
+:repl/exception!
+; 
+; Execution error (Error) at (<cljs repl>:1).
+[object ArrayBuffer] is not ISeqable
+cljs꞉phase-vocoder.app꞉> 
+:repl/exception!
+; 
+; Execution error (Error) at (<cljs repl>:1).
+nth not supported on this type function ArrayBuffer() { [native code] }
+cljs꞉phase-vocoder.app꞉> 
+nil
+cljs꞉phase-vocoder.app꞉> 
+#object[ArrayBuffer [object ArrayBuffer]]
+cljs꞉phase-vocoder.app꞉> 
+:repl/exception!
+; 
+; Execution error (TypeError) at (<cljs repl>:1).
+Failed to set the 'buffer' property on 'AudioBufferSourceNode': Failed to convert value to 'AudioBuffer'.
+cljs꞉phase-vocoder.app꞉> 
+#object[ArrayBuffer [object ArrayBuffer]]
+cljs꞉phase-vocoder.app꞉> 
+#<Promise[~]>
+cljs꞉phase-vocoder.app꞉> 
+#object[AudioBuffer [object AudioBuffer]]
+cljs꞉phase-vocoder.app꞉> 
+#object[AudioBuffer [object AudioBuffer]]
+cljs꞉phase-vocoder.app꞉> 
+#object[AudioBufferSourceNode [object AudioBufferSourceNode]]
+cljs꞉phase-vocoder.app꞉> 
+#object[AudioBuffer [object AudioBuffer]]
+cljs꞉phase-vocoder.app꞉> 
+#object[AudioBuffer [object AudioBuffer]]
+cljs꞉phase-vocoder.app꞉> 
+:repl/exception!
+; 
+; Execution error (TypeError) at (<cljs repl>:1).
+cljs.core.deref.call(...).typeOf is not a function
+cljs꞉phase-vocoder.app꞉> 
+:repl/exception!
+; 
+; Execution error (TypeError) at (<cljs repl>:1).
+cljs.core.deref.call(...).type is not a function
+cljs꞉phase-vocoder.app꞉> 
+#object[AudioBuffer]
+cljs꞉phase-vocoder.app꞉> 
+nil
+; repl-input.cljs [line 1, col 11] No reader function for tag object.
+; 
+cljs꞉phase-vocoder.app꞉> 
+"function AudioBuffer() { [native code] }"
+cljs꞉phase-vocoder.app꞉> 
